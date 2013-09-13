@@ -1,6 +1,6 @@
 This is a simple script that will archive all the contents of the folder it is placed in. It creates a new folder named `backup` in the current directory and excludes this folder from the archiving process. This is useful when implemented with Box Sync, making full backups of an entire directory just one click away.
 
-## Setup With Box ##
+## Setup with 7-zip and Box Sync ##
 
 1. Download [Box Sync](https://app.box.com/download-box-sync/).
 2. Download the [7-zip Executable](http://www.7-zip.org/download.html) by selecting the `.zip 32-bit 7-Zip Command Line Version` from the download list. Place the file `7za.exe` into `C:\Windows`. You can confirm this is working by running `cmd` and `> 7za`.
