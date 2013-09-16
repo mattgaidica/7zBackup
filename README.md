@@ -19,4 +19,4 @@ The script creates one zipped file in the folder itself (using the folder name `
 4. Run it once by double-clicking the file.
 
 ## Notes ##
-* It is assummed that a folder be created for each machine within the "My Box Files" folder.
+* It is assumed that a folder be created for each machine within the "My Box Files" folder.
