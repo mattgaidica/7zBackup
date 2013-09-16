@@ -1,4 +1,4 @@
-This is a simple script that creates a "snapshot" backup of all the contents of the folder it is placed in. It creates a new folder named `backup` and excludes this folder from the archiving process. This is useful when implemented with Box Sync and the My Box Files folder, making full backups with online syncing of an entire directory just one click away.
+This is a simple script that creates a "snapshot" backup of all the contents of the folder it is placed in. It creates a new folder named `backup` and excludes this folder from future snapshots. This is useful when implemented with Box Sync and the My Box Files folder, making full backups with online syncing of an entire folder just one click away.
 
 **Quick Use**
 
