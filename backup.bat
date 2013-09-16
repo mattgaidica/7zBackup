@@ -4,4 +4,4 @@ For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 for %%* in (.) do set CurrDirName=%%~n*
 
 7za a -tzip -xr!backup "backup\%CurrDirName%--%mydate%_%mytime%"
-7za a -tzip -xr!backup "C:\Users\Leventhal1\Documents\My Box Files\Leventhal1\%CurrDirName%--%mydate%_%mytime%"
+7za a -tzip -xr!backup "C:\Users\admin\Dropbox\Usain-Bolt\%CurrDirName%--%mydate%_%mytime%"
