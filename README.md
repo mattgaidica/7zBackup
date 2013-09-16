@@ -17,6 +17,3 @@ The script creates one zipped file in the folder itself (using the folder name `
 2. Modify/remove the paths for your system by opening the batch file in a text editor.
 3. Place `backup.bat` into the folder with your files/subfolders that need to be backed up.
 4. Run it once by double-clicking the file.
-
-## Notes ##
-* It is assumed that a folder be created for each machine within the "Dropbox" folder.
