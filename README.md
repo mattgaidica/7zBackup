@@ -11,3 +11,4 @@ Your files will now be backed up to Box whenever they are changed, or in the cas
 
 ## Notes ##
 * Although you could work directly from the synced Box folder, you shouldn't. Open your folder/files just as you did before and leave the symbolic folder alone.
+* [Symbolic links and Box don't play nice!](https://support.box.com/entries/22289307-Symbolic-links-from-My-Box-Files-in-Windows-7-)
