@@ -1,14 +1,20 @@
-This is a simple script that will archive all the contents of the folder it is placed in. It creates a new folder named `backup` in the current directory and excludes this folder from the archiving process. This is useful when implemented with Box Sync, making full backups of an entire directory just one click away.
+This is a simple script that creates a "snapshot" backup of all the contents of the folder it is placed in. It creates a new folder named `backup` and excludes this folder from the archiving process. This is useful when implemented with Box Sync and the My Box Files folder, making full backups with online syncing of an entire directory just one click away.
 
-## Setup with 7-zip and Box Sync ##
+* Quick Use *
+1. Place the `backup.bat` file in your folder.
+2. Double-click it.
+
+## Setup a New Computer with 7-zip and Box Sync ##
+The script creates one zipped file in the folder itself (using the folder name `backup`), and also makes one in the Box Sync folder via the second path in the script. Either of these can be excluded depending on your needs. Setup follows:
 
 1. Download [Box Sync](https://app.box.com/download-box-sync/).
 2. Download the [7-zip Executable](http://www.7-zip.org/download.html) by selecting the `.zip 32-bit 7-Zip Command Line Version` from the download list. Place the file `7za.exe` into `C:\Windows`. You can confirm this is working by running `cmd` and `> 7za`.
-3. Download the included `backup.bat` file and place it in the folder with your files/subfolders that need to be backed up. Run it once by double-clicking the file.
-4. You will now create a symbolic link from your folder to the Box Sync folder. Run `cmd` to enter the command line. Change the working directory to the Box Sync folder `> cd C:\Users\admin\Documents\My Box Files`. Create a symbolic link to your folder `> mklink /D OptogeneticsTable "C:\Leventhal lab VIs\OptogenteticsTable"`. The qutotation marks are used to avoid issues with spaces in the file path. Preferably, you will use a similar name for the symbolic folder and the one that already exists.
 
-Your files will now be backed up to Box whenever they are changed, or in the case of the backup script, whenever new files or folders are created (everytime you run the script the new archive file will be synced).
+* Using Backup.bat *
+1. Obtain the `backup.bat` file either by downloading the ZIP file package, or copying the raw contents into a file on your computer.
+2. Modify/remove the paths for your system by opening the batch file in a text editor.
+3. Place `backup.bat` into the folder with your files/subfolders that need to be backed up.
+4. Run it once by double-clicking the file.
 
 ## Notes ##
-* Although you could work directly from the synced Box folder, you shouldn't. Open your folder/files just as you did before and leave the symbolic folder alone.
-* [Symbolic links and Box don't play nice!](https://support.box.com/entries/22289307-Symbolic-links-from-My-Box-Files-in-Windows-7-)
+* It is assummed that a folder be created for each machine within the "My Box Files" folder.
