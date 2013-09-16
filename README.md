@@ -1,14 +1,14 @@
-This is a simple script that creates a "snapshot" backup of all the contents of the folder it is placed in. It creates a new folder named `backup` and excludes this folder from future snapshots. This is useful when implemented with Box Sync and the My Box Files folder, making full backups with online syncing of an entire folder just one click away.
+This is a simple script that creates a "snapshot" backup of all the contents of the folder it is placed in. It creates a new folder named `backup` and excludes this folder from future snapshots. This is useful when implemented with Dropbox desktop, making full backups with online syncing of an entire folder just one click away.
 
 **Quick Use**
 
 1. Place the `backup.bat` file in your folder.
 2. Double-click it.
 
-## Setup a New Computer with 7-zip and Box Sync ##
-The script creates one zipped file in the folder itself (using the folder name `backup`), and also makes one in the Box Sync folder via the second path in the script. Either of these can be excluded depending on your needs. Setup follows:
+## Setup a New Computer with 7-zip and Dropbox ##
+The script creates one zipped file in the folder itself (using the folder name `backup`), and also makes one in the Dropbox folder via the second path in the script. Either of these can be excluded depending on your needs. Setup follows:
 
-1. Download [Box Sync](https://app.box.com/download-box-sync/).
+1. Download [Dropbox](https://dropbox.com/download).
 2. Download the [7-zip Executable](http://www.7-zip.org/download.html) by selecting the `.zip 32-bit 7-Zip Command Line Version` from the download list. Place the file `7za.exe` into `C:\Windows`. You can confirm this is working by running `cmd` and `> 7za`.
 
 **Using Backup.bat**
@@ -19,4 +19,4 @@ The script creates one zipped file in the folder itself (using the folder name `
 4. Run it once by double-clicking the file.
 
 ## Notes ##
-* It is assumed that a folder be created for each machine within the "My Box Files" folder.
+* It is assumed that a folder be created for each machine within the "Dropbox" folder.
