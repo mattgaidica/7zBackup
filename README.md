@@ -1,6 +1,6 @@
 This is a simple script that creates a "snapshot" backup of all the contents of the folder it is placed in. It creates a new folder named `backup` and excludes this folder from the archiving process. This is useful when implemented with Box Sync and the My Box Files folder, making full backups with online syncing of an entire directory just one click away.
 
-* Quick Use *
+**Quick Use**
 1. Place the `backup.bat` file in your folder.
 2. Double-click it.
 
@@ -10,7 +10,7 @@ The script creates one zipped file in the folder itself (using the folder name `
 1. Download [Box Sync](https://app.box.com/download-box-sync/).
 2. Download the [7-zip Executable](http://www.7-zip.org/download.html) by selecting the `.zip 32-bit 7-Zip Command Line Version` from the download list. Place the file `7za.exe` into `C:\Windows`. You can confirm this is working by running `cmd` and `> 7za`.
 
-* Using Backup.bat *
+**Using Backup.bat**
 1. Obtain the `backup.bat` file either by downloading the ZIP file package, or copying the raw contents into a file on your computer.
 2. Modify/remove the paths for your system by opening the batch file in a text editor.
 3. Place `backup.bat` into the folder with your files/subfolders that need to be backed up.
