@@ -13,7 +13,7 @@ The script creates one zipped file in the folder itself (using the folder name `
 
 **Using Backup.bat**
 
-1. Obtain the `backup.bat` file either by downloading the ZIP file package, or copying the raw contents into a file on your computer.
+1. Obtain the `backup.bat` file either by downloading the ZIP file package, or copying the raw contents into a file on your computer via the [Github Repository](https://github.com/mattgaidica/7zBackup).
 2. Modify/remove the paths for your system by opening the batch file in a text editor.
 3. Place `backup.bat` into the folder with your files/subfolders that need to be backed up.
 4. Run it once by double-clicking the file.
